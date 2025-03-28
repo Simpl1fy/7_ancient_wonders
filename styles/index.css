@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'Marcellus';
+    src: url(Marcellus-Regular.ttf);
+}
+
+body {
+    font-family: 'Marcellus';
+    margin: 0;
+    padding: 0;
+}

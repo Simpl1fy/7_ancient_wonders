@@ -1,0 +1,91 @@
+.wonder-cards h2 {
+    text-align: center;
+    color: #464E47;
+    font-size: 2rem;
+    margin: 0;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.wonder-card-odd {
+    background-color: #F6FFF8;
+}
+
+.wonder-card-even {
+    background-color: #EAF4F4;
+}
+
+.wonder-card-odd .card-body,
+.wonder-card-even .card-body {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 2rem;
+}
+
+.wonder-card-odd .card-image {
+    width: 100%;
+    max-width: 600px;
+    min-width: 600px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 1rem;
+    margin-right: 3rem;
+}
+
+.wonder-card-odd .card-body-details {
+    background-color: #EAF4F4;
+    padding: 20px;
+    width: 600px;
+    height: fit-content;
+    border-radius: 1rem;
+    box-shadow: 5px 5px 5px #e5e5e5;
+}
+
+.wonder-card-odd .card-body-details p 
+.wonder-card-even .card-body-details p{
+    margin: 0;
+    padding-top: 1rem;
+}
+
+.wonder-card-even .card-body-details {
+    background-color: #F6FFF8;
+    width: 600px;
+    padding: 20px;
+    height: fit-content;
+    border-radius: 1rem;
+    box-shadow: 5px 5px 5px #dbe3dd;
+    margin-right: 3rem;
+}
+
+.wonder-card-even .card-image {
+    width: 100%;
+    max-width: 600px;
+    min-width: 600px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 1rem;
+}
+.read-more-button {
+    border: none;
+    margin-top: 0.5rem;
+    border-radius: 0.5rem;
+    padding: 10px 15px 10px 15px;
+    background-color: #568259;
+    text-decoration: none;
+}
+
+.read-more-button a {
+    text-decoration: none;
+    color: white;
+}
+
+.read-more-button:hover {
+    background-color: #49734c;
+    cursor: pointer;
+    transition: background-color 200ms;
+}
+
+.card-body-details h3 {
+    margin: 0px;
+}
