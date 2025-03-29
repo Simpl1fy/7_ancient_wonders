@@ -1,0 +1,36 @@
+.footer {
+    background-color: #171717;
+    color: white;
+    padding: 1rem;
+}
+
+.footer h2 {
+    margin: 0;
+    padding-top: 1rem;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: start;
+    gap: 5rem;
+}
+
+.container p {
+    word-wrap: break-word;
+    white-space: normal;
+    max-width: 900px;
+}
+
+.quick-links-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.quick-links-list li {
+    cursor: pointer;
+    margin-bottom: 0.8rem;
+}
+
+.quick-links-list li:hover {
+    color: rgb(216, 216, 216);
+}

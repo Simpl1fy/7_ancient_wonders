@@ -1,0 +1,39 @@
+.about-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0px;
+    padding-top: 1rem;
+    text-align: center;
+}
+
+.about-header p {
+    font-size: 1.2rem;
+    color: rgb(38, 38, 38);
+    word-wrap: break-word;
+    white-space: normal;
+    max-width: 900px;
+    text-align: center;
+}
+
+.about-card-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.about-card-section .card {
+    width: 100%;
+    margin: 1.5rem;
+    padding: 1rem;
+    box-shadow: 3px 3px 5px 2px rgb(188, 188, 188);
+}
+
+.list li {
+    margin-bottom: 0.4rem;
+}
