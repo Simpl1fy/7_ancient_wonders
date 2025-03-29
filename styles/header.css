@@ -5,7 +5,7 @@
     justify-content: center;
     align-items: center;
     background: linear-gradient(rgba(105, 105, 105, 0.8), rgba(105, 105, 105, 0.8)),
-        url('../public/seven-wonders-ancient-world-pyramid-260nw-1420593638.webp');;
+        url('../public/images/seven-wonders-ancient-world-pyramid-260nw-1420593638.webp');;
     background-size: cover;
     background-repeat: no-repeat;
     background-color: gray;
@@ -29,6 +29,8 @@
 }
 
 .header-button {
+    font-size: large;
+    font-weight: 600;
     padding: 10px 20px 10px 20px;
     border: none;
     background-color: #568259;
@@ -38,7 +40,7 @@
 }
 
 .header-button:hover {
-    background-color: #464E47;
+    background-color: #49734c;
     color: white;
     cursor: pointer;
     transition: background-color 200ms;

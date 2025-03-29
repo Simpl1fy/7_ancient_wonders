@@ -3,6 +3,10 @@
     src: url(Marcellus-Regular.ttf);
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Marcellus';
     margin: 0;

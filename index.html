@@ -13,14 +13,9 @@
     <section>
         <nav class="navbar">
             <div class="heading">7 wonders</div>
-            <div class="section">Great Pyramid</div>
-            <div class="section">Lighthouse of Alexandria</div>
-            <div class="section">Mausoleum at Halicarnassus</div>
-            <div class="section">Colossus of Rhodes</div>
-            <div class="section">Temple of Artemis</div>
-            <div class="section">Statue of Zeus</div>
-            <div class="section">Hanging Garden of Babylons</div>
-            <div class="section">About</div>
+            <div class="section" id="nav-start-exploring-button">Start Exploring</div>
+            <div class="section">About Me</div>
+            <div class="section">Why this?</div>
         </nav>
     </section>
 
@@ -29,17 +24,17 @@
         <div class="header">
             <h1>The 7 wonders of the Ancient World</h1>
             <p>Explore the magnificent structures that inspired awe and wonder throughout ancient history.</p>
-            <button class="header-button">Start Exploring</button>
+            <button class="header-button" id="button-start-exploring-button">Start Exploring</button>
         </div>
     </section>
 
     <section>
         <div class="wonder-cards">
-            <div class="wonder-card-odd">
+            <div class="wonder-card-odd" id="great-pyramid-of-giza">
                 <h2>Great Pyramid of Giza</h2>
                 <div class="card-body">
                     <img
-                        src="./public/Pyramid-of-Khafre-Giza-Egypt.webp"
+                        src="./public/images/Pyramid-of-Khafre-Giza-Egypt.webp"
                         alt="Great Pyramids of Giza"
                         class="card-image"
                     />
@@ -53,18 +48,29 @@
                             earthquake more than 600 years ago, and were removed to help build cities and mosques. When these casing stones were
                             present, some believe that the pyramid was so large and bright that it could be seen from the moon.
                         </p>
-                        <button class="read-more-button">
-                            <a 
-                                href="https://en.wikipedia.org/wiki/Great_Pyramid_of_Giza"
-                                target="_blank"
-                            >
-                                Read More
-                            </a>
-                        </button>
+                        <div class="card-button-section">
+                            <button class="read-more-button">
+                                <a
+                                    href="https://en.wikipedia.org/wiki/Great_Pyramid_of_Giza"
+                                    target="_blank"
+                                >
+                                    Read More
+                                </a>
+                            </button>
+                            <div class="go-next" id="go-next-1">
+                                Go Next
+                                <div class="arrow">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                                        class="size-6">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="wonder-card-even">
+            <div class="wonder-card-even" id="lighthouse-of-alexandria">
                 <h2>Lighthouse of Alexandria</h2>
                 <div class="card-body">
                     <div class="card-body-details">
@@ -81,23 +87,34 @@
                             the fire at night. It is said that mariners could see the light up to 35 miles away. Legends have it that the light was
                             so bright it could be used to burn enemy ships.
                         </p>
-                        <button class="read-more-button">
-                            <a href="https://en.wikipedia.org/wiki/Lighthouse_of_Alexandria" target="_blank">
-                                Read More
-                            </a>
-                        </button>
+                        <div class="card-button-section">
+                            <button class="read-more-button">
+                                <a href="https://en.wikipedia.org/wiki/Lighthouse_of_Alexandria" target="_blank">
+                                    Read More
+                                </a>
+                            </button>
+                            <div class="go-next" id="go-next-2">
+                                Go Next
+                                <div class="arrow">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                        stroke="currentColor" class="size-6">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                     <img
-                        src="./public/lighthouse-of-alexandria.jpg"
+                        src="./public/images/lighthouse-of-alexandria.jpg"
                         alt="Lighthouse of Alexandria"
                         class="card-image"
                     />
                 </div>
             </div>
-            <div class="wonder-card-odd">
+            <div class="wonder-card-odd" id="mausoluem-at-halicarnassus">
                 <h2>Mausoluem at Halicarnassus</h2>
                 <div class="card-body">
-                    <img src="./public/Artist-re-creation-Mausoleum-of-Halicarnassus.webp" alt="Great Pyramids of Giza" class="card-image" />
+                    <img src="./public/images/Artist-re-creation-Mausoleum-of-Halicarnassus.webp" alt="Mausoleum at Halicarnassus" class="card-image" />
                     <div class="card-body-details">
                         <h3>A Monument of Love and Power</h3>
                         <p>
@@ -111,15 +128,26 @@
                             tomb had nine massive columns, and the top was a stepped pyramid on which stood by a four-horse marble chariot in which
                             there were images of Mausolus and Artemisia.
                         </p>
-                        <button class="read-more-button">
-                            <a href="https://en.wikipedia.org/wiki/Mausoleum_at_Halicarnassus" target="_blank">
-                                Read More
-                            </a>
-                        </button>
+                        <div class="card-button-section">
+                            <button class="read-more-button">
+                                <a href="https://en.wikipedia.org/wiki/Mausoleum_at_Halicarnassus" target="_blank">
+                                    Read More
+                                </a>
+                            </button>
+                            <div class="go-next" id="go-next-3">
+                                Go Next
+                                <div class="arrow">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                        stroke="currentColor" class="size-6">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="wonder-card-even">
+            <div class="wonder-card-even" id="colossus-of-rhodes">
                 <h2>Collosus of Rhodes</h2>
                 <div class="card-body">
                     <div class="card-body-details">
@@ -134,19 +162,30 @@
                             straddling Mandrákion harbor, this is now considered technically impossible; and therefore, it likely stood beside the
                             harbor.
                         </p>
-                        <button class="read-more-button">
-                            <a href="https://en.wikipedia.org/wiki/Colossus_of_Rhodes" target="_blank">
-                                Read More
-                            </a>
-                        </button>
+                        <div class="card-button-section">
+                            <button class="read-more-button">
+                                <a href="https://en.wikipedia.org/wiki/Colossus_of_Rhodes" target="_blank">
+                                    Read More
+                                </a>
+                            </button>
+                            <div class="go-next" id="go-next-4">
+                                Go Next
+                                <div class="arrow">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                        stroke="currentColor" class="size-6">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <img src="./public/Colossus-of-Rhodes.jpg" alt="Lighthouse of Alexandria" class="card-image" />
+                    <img src="./public/images/Colossus-of-Rhodes.jpg" alt="Colossus of Rhodes" class="card-image" />
                 </div>
             </div>
-            <div class="wonder-card-odd">
+            <div class="wonder-card-odd" id="temple-of-artemis">
                 <h2>Temple of Artemis at Ephesus</h2>
                 <div class="card-body">
-                    <img src="./public/3_Temple-of-Artemis-A11.webp" alt="Great Pyramids of Giza"
+                    <img src="./public/images/3_Temple-of-Artemis-A11.webp" alt="Temple of Artemis"
                         class="card-image" />
                     <div class="card-body-details">
                         <h3>The Sacred Marvel</h3>
@@ -161,15 +200,26 @@
                             that supported its roof. At least twice the size of the Parthenon, it was so breathtaking it was said to rise to the
                             clouds.
                         </p>
-                        <button class="read-more-button">
-                            <a href="https://en.wikipedia.org/wiki/Temple_of_Artemis" target="_blank">
-                                Read More
-                            </a>
-                        </button>
+                        <div class="card-button-section">
+                            <button class="read-more-button">
+                                <a href="https://en.wikipedia.org/wiki/Temple_of_Artemis" target="_blank">
+                                    Read More
+                                </a>
+                            </button>
+                            <div class="go-next" id="go-next-5">
+                                Go Next
+                                <div class="arrow">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                        stroke="currentColor" class="size-6">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="wonder-card-even">
+            <div class="wonder-card-even" id="statue-of-zeus">
                 <h2>Statue of Zeus at Olympia</h2>
                 <div class="card-body">
                     <div class="card-body-details">
@@ -185,19 +235,30 @@
                             In 426 AD, the temple was destroyed and many historians believe that the statue was destroyed at that time. Others
                             believe, however, that the statue was moved to Constantinople (now Istanbul) and was destroyed about 50 years later.
                         </p>
-                        <button class="read-more-button">
-                            <a href="https://en.wikipedia.org/wiki/Statue_of_Zeus_at_Olympia" target="_blank">
-                                Read More
-                            </a>
-                        </button>
+                        <div class="card-button-section">
+                            <button class="read-more-button">
+                                <a href="https://en.wikipedia.org/wiki/Statue_of_Zeus_at_Olympia" target="_blank">
+                                    Read More
+                                </a>
+                            </button>
+                            <div class="go-next" id="go-next-6">
+                                Go Next
+                                <div class="arrow">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                        stroke="currentColor" class="size-6">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <img src="./public/Statue-Zeus-Olympia.webp" alt="Lighthouse of Alexandria" class="card-image" />
+                    <img src="./public/images/Statue-Zeus-Olympia.webp" alt="Statue of Zeus" class="card-image" />
                 </div>
             </div>
-            <div class="wonder-card-odd">
+            <div class="wonder-card-odd" id="hanging-garden">
                 <h2>Hanging Garden of Babylons</h2>
                 <div class="card-body">
-                    <img src="./public/hanging_gardens_of_babylon.avif" alt="Great Pyramids of Giza"
+                    <img src="./public/images/hanging_gardens_of_babylon.avif" alt="Hanging Gardens of Babylon"
                         class="card-image" />
                     <div class="card-body-details">
                         <h3>The Mysterious Paradise</h3>
@@ -211,15 +272,27 @@
                             Some research suggests that it was an elaborate series of rooftop gardens. Another theory suggests that the gardens were
                             built in the walls of the royal palace.
                         </p>
-                        <button class="read-more-button">
-                            <a href="https://en.wikipedia.org/wiki/Hanging_Gardens_of_Babylon" target="_blank">
-                                Read More
-                            </a>
-                        </button>
+                        <div class="card-button-section">
+                            <button class="read-more-button">
+                                <a href="https://en.wikipedia.org/wiki/Hanging_Gardens_of_Babylon" target="_blank">
+                                    Read More
+                                </a>
+                            </button>
+                            <div class="go-next" id="go-next-7">
+                                Go Next
+                                <div class="arrow">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                        stroke="currentColor" class="size-6">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+    <script src="./scripts/index.js" defer></script>
 </body>
 </html>

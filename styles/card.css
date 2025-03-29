@@ -89,3 +89,38 @@
 .card-body-details h3 {
     margin: 0px;
 }
+
+.card-button-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.go-next {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    cursor: pointer;
+}
+
+.arrow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    padding: 0.5rem;
+}
+
+.wonder-card-odd .arrow {
+    background-color: #F6FFF8;
+}
+
+.wonder-card-even .arrow {
+    background-color: #EAF4F4;
+}
+
+.arrow svg {
+    height: 24px;
+    width: 24px;
+}
