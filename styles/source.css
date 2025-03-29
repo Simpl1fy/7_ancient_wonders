@@ -1,0 +1,21 @@
+.source-section {
+    background-color: #EAF4F4;
+    padding: 3rem;
+}
+
+.source-heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.source-heading h1 {
+    margin: 0;
+    color: #464E47;
+}
+
+.source-heading p {
+    font-size: 1.2rem;
+    color: rgb(38, 38, 38);
+}

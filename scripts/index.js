@@ -1,6 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
     // buttons
-    const navStartExploringButton = document.getElementById("nav-start-exploring-button");
     const buttonStartExploringButton = document.getElementById("button-start-exploring-button");
     const footerStartExploringButton = document.getElementById("footer-start-exploring-button");
     const goNext1 = document.getElementById("go-next-1");
@@ -22,13 +21,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
     // onclick handlers
-    navStartExploringButton.addEventListener("click", () => {
-      pyramidOfGiza.scrollIntoView({
-        behavior: "smooth",
-        block: "start",
-      });
-    });
-
     buttonStartExploringButton.addEventListener("click", () => {
       pyramidOfGiza.scrollIntoView({
         behavior: "smooth",
