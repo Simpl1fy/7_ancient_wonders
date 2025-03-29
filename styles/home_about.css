@@ -1,3 +1,7 @@
+.about-section {
+    padding-bottom: 1.5rem;
+}
+
 .about-header {
     display: flex;
     flex-direction: column;

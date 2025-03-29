@@ -31,6 +31,14 @@
     margin-bottom: 0.8rem;
 }
 
+.quick-links-list li a {
+    color: white;
+}
+
+.quick-links-list li a:hover {
+    color: rgb(216, 216, 216);
+}
+
 .quick-links-list li:hover {
     color: rgb(216, 216, 216);
 }

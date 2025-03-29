@@ -19,3 +19,26 @@
     font-size: 1.2rem;
     color: rgb(38, 38, 38);
 }
+
+.source-content .row {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    padding: 1.5rem;
+    background-color: #F6FFF8;
+    border-radius: 1rem;
+    box-shadow: 3px 3px 5px #bbc0c0;
+    margin-bottom: 1rem;
+}
+
+.source-content .row .image {
+    background-color: white;
+    padding: 0.5rem;
+    border-radius: 1rem;
+}
+
+.source-content .row .image .source-image {
+    width: 6.25rem;
+    height: 6.25rem;
+    border-radius: 100%;
+}
