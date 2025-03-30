@@ -18,8 +18,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const templeOfArtemis = document.getElementById("temple-of-artemis");
     const statusOfZeus = document.getElementById("statue-of-zeus");
     const hangingGarden = document.getElementById("hanging-garden");
-    
-    const aboutSection = document.getElementById("id-about-section")
+    const aboutSection = document.getElementById("id-about-section");
 
 
     // onclick handlers

@@ -12,7 +12,20 @@
 
 .source-heading h1 {
     margin: 0;
+    padding-bottom: 1.5rem;
     color: #464E47;
+    position: relative;
+}
+
+.source-heading h1::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 70%;
+    height: 3px;
+    background-color: #464E47;
+    transform: translateX(-50%);
 }
 
 .source-heading p {
